@@ -16,7 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/portfolio-kor/profile.json")
+      fetch("./portfolio-kor/profile.json")
         .then(result => {
           if (result.ok) {
             return result.json();
