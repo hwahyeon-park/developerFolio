@@ -11,26 +11,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Hwahyeon Park",
+  greet:"안녕하세요",
+  title: "박화현입니다.",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "호기심이 많은 개발자🚀"
   ),
+  language: "Java / C / Python ",
+  platform: "Android / Azure / Docker / Git ",
+  board: "RaspberryPi / Arduino / Lattepanda / Kinect ",
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://github.com/hwahyeon-park", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/hwahyeon-park",
+  gmail: "hwahyeonp25@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -40,73 +39,70 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "새로운 기술이라도 호기심을 가지고 배우는 도전가",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ IoT / Embedded 프로젝트 다수 경험"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ 각종 개발 보드 경험 (Arduino, RaspberryPi, Kinect(MS Azure), LattePanda, NXP Pico, Edge Gateway(Dell), JETSON NANO(NVIDIA), Vision AI Development Kit(Qualcomm) 등)"
+    ),
+    emoji(
+      "⚡ 서드파티(ThirdParty) 서비스 활용 (Android, Azure, Firebase, Android Things, Docker, Mobius 등)"
+    ),
+    emoji("⚡ 암호 알고리즘 활용 프로젝트 경험"),
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+https://fontawesome.com/cicons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C",
+      fontAwesomeClassname: "fa-solid fa-c"
+    },    {
+      skillName: "C++",
+      fontAwesomeClassname: "fa-solid fa-c"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+
+    {
+      skillName: "Raspberry-pi",
+      fontAwesomeClassname: "fab fa-raspberry-pi"
+    },
+    {
+      skillName: "Arduino",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Kinect",
+      fontAwesomeClassname: "fas fa-camera"
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -117,23 +113,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Seoul Women's University",
+      logo: require("./assets/images/swuLogo.jpg"),
+      subHeader: "정보보호학과 (공학사)",//Bachelor of Engineering
+      subHeader2:"중어중문학과 (문학사)",//Bachelor of Arts
+      duration: "March 2016 - August 2021",//March 2016 - August 2021
+      //desc: "Department of Information Security",//Department of Information Security
+      //desc2: "Department of Chinese Language & Literature",//Department of Chinese Language & Literature
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "정보보호학과 학부연구생 참여 프로젝트 4개, 국내논문 1편, 해외논문 1편 출품",
+        "Develop & Deploy 어드바이저 3학기 활동"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -144,8 +134,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "IoT / Embedded", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -156,7 +146,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -165,29 +155,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer (Intern)",
+      company: "BRFRAME",
+      companylogo: require("./assets/images/brframeLogo-eng.jfif"),
+      date: "July 2019  –  Febuary 2020",
+      desc: "프로그램 개발 및 자료 분석",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Azure IoT 서비스를 활용한 다수 임베디드 시스템 개발 (Raspberry Pi, Edge Gateway(Dell), JETSON NANO(NVIDIA))  ",
+        "Azure AI + Machine Learning 서비스를 활용한 다수 임베디드 시스템 개발 (Kinect(MS Azure), Vision AI Development Kit(Qualcomm))",
+        "한국전자기술연구원(KETI) 자체개발 IoT 플랫폼 Mobius를 활용한 센서 네트워크 프로젝트 진행 "
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -203,7 +180,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -230,60 +207,43 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Research 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Some projects and papers that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Android Things를 활용한 암호화 라이브러리 구현",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        emoji("🚩Google에서 개발한 IoT 운영체제인 Android Things를 활용하여 센서 값을 암호화하는 라이브러리를 구현하는 프로젝트에 학부연구생으로 참여하여, Raspberry Pi에 센서를 연결하고 지정한 주기대로 센서데이터를 받아 암호화하고 데이터베이스에 전송하는 기능을 구현하였습니다. "),
+        subtitle2:
+          emoji("🚩이 주제로 한국 시뮬레이션 학회에 'SEED 암호 라이브러리를 활용한 안전한 Android Things 통신 환경연구'라는 논문을 등재하였습니다."),
+        image: require("./assets/images/AndroidThings.jpg"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Paper Information",
+          url: "https://www.semanticscholar.org/paper/A-Study-on-the-Secure-Communication-at-Android-the-Hwahyeon-Yoon/e1913ebf7c998239f926365948023c35f15557a9"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "IoT 기반 공간 보안 솔루션",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        emoji("🚩여러 개의 센서들로 이루어진 공간을 하나의 보안 알고리즘으로 만들어 인증하는 프로젝트에 학부연구생으로 참여하여, Raspberry Pi에 다양한 센서들을 연결하고 접근자의 권한을 확인할 수 있도록 센서 시스템를 정리하였습니다. "),
+      subtitle2:
+          emoji("🚩이 주제로 International Conference on Convergence Technology에 'IoT-based Sapce Security(ISS) Solution'라는 논문을 제출하였습니다."),
+      image: require("./assets/images/paper.svg"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Paper",
+          url: "http://iacst.org/iacst/Conferences/ICCT2018/sessions/Session%20ST-P4/890.htm"
         }
       ]
     }
@@ -312,7 +272,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,7 +291,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -344,22 +304,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "hwahyeonp25@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
