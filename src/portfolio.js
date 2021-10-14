@@ -20,8 +20,7 @@ const greeting = {
   language: "Java / C / Python ",
   platform: "Android / Azure / Docker / Git ",
   board: "RaspberryPi / Arduino / Lattepanda / Kinect ",
-  resumeLink:
-    "https://github.com/hwahyeon-park", // Set to empty to hide the button
+  resumeLink:"", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

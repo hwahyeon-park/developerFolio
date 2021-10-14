@@ -22,6 +22,8 @@ export default function AchievementCard({cardInfo, isDark}) {
         </h5>
         <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
           {cardInfo.description}
+          <br/>
+          {cardInfo.description2}
         </p>
       </div>
       <div className="certificate-card-footer">

@@ -44,6 +44,9 @@ export default function EducationCard({school}) {
                 }
               >
                 {school.subHeader}
+                <br/>
+                {school.subHeader2}
+                
               </h5>
               <p
                 className={`${
