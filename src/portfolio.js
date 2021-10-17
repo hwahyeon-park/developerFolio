@@ -168,7 +168,7 @@ const workExperiences = {
     {
       role: "연구원",
       company: "서울여자대학교 산학협력단",
-      companylogo: require("./assets/images/bswuLogo.jpg"),
+      companylogo: require("./assets/images/swuLogo.jpg"),
       date: "August 2021  –  Present ",
       desc: "과제 연구, 논문 작성 및 프로그램 개발",
       descBullets: [
