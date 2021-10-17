@@ -154,7 +154,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer (Intern)",
+      role: "인턴",
       company: "BRFRAME",
       companylogo: require("./assets/images/brframeLogo-eng.jfif"),
       date: "July 2019  –  Febuary 2020",
@@ -163,6 +163,17 @@ const workExperiences = {
         "Azure IoT 서비스를 활용한 다수 임베디드 시스템 개발 (Raspberry Pi, Edge Gateway(Dell), JETSON NANO(NVIDIA))  ",
         "Azure AI + Machine Learning 서비스를 활용한 다수 임베디드 시스템 개발 (Kinect(MS Azure), Vision AI Development Kit(Qualcomm))",
         "한국전자기술연구원(KETI) 자체개발 IoT 플랫폼 Mobius를 활용한 센서 네트워크 프로젝트 진행 "
+      ]
+    },
+    {
+      role: "연구원",
+      company: "서울여자대학교 산학협력단",
+      companylogo: require("./assets/images/bswuLogo.jpg"),
+      date: "August 2021  –  Present ",
+      desc: "과제 연구, 논문 작성 및 프로그램 개발",
+      descBullets: [
+        "졸업 후, 모교에서 연구 과제 참여 ",
+        "IoT 환경을 구상하고 그에 맞는 암호 라이브러리를 개발 및 관련 주제로 논문 작성 중"
       ]
     }
   ]
