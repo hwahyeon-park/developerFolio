@@ -172,8 +172,8 @@ const workExperiences = {
       date: "August 2021  –  Present ",
       desc: "과제 연구, 논문 작성 및 프로그램 개발",
       descBullets: [
-        "졸업 후, 모교에서 연구 과제 참여 ",
-        "IoT 환경을 구상하고 그에 맞는 암호 라이브러리를 개발 및 관련 주제로 논문 작성 중"
+        "졸업 후, 모교에서 IoT 환경 암호 라이브러리 개발 연구 과제 참여 ",
+        "Asia Simulation Conference에서 <A Study on SES-based Information Security Framework for Autonomous Vehicle Controlling Environment> 주제로 논문 제출 및 구두 발표"
       ]
     }
   ]
