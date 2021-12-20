@@ -160,8 +160,8 @@ const workExperiences = {
       date: "July 2019  –  Febuary 2020",
       desc: "프로그램 개발 및 자료 분석",
       descBullets: [
-        "Azure IoT 서비스를 활용한 다수 임베디드 시스템 개발 (Raspberry Pi, Edge Gateway(Dell), JETSON NANO(NVIDIA))  ",
-        "Azure AI + Machine Learning 서비스를 활용한 다수 임베디드 시스템 개발 (Kinect(MS Azure), Vision AI Development Kit(Qualcomm))",
+        "Azure IoT 서비스를 활용한 다수 임베디드 시스템 개발 (Raspberry Pi, Edge Gateway(Dell), JETSON NANO(NVIDIA) 기기 사용)  ",
+        "Azure AI + Machine Learning 서비스를 활용한 다수 임베디드 시스템 개발 (Kinect(MS Azure), Vision AI Development Kit(Qualcomm) 기기 사용)",
         "한국전자기술연구원(KETI) 자체개발 IoT 플랫폼 Mobius를 활용한 센서 네트워크 프로젝트 진행 "
       ]
     },
