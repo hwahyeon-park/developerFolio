@@ -15,7 +15,7 @@ const greeting = {
   greet:"안녕하세요",
   title: "박화현입니다.",
   subTitle: emoji(
-    "호기심 많고 배움을 즐기며 포기는 하지 않는 개발자🚀"
+    "호기심이 많고 배움을 즐기며 포기는 하지 않는 개발자🚀"
   ),
   language: "Java / C / Python ",
   platform: "Android / Azure / Docker / Git ",
