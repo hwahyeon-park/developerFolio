@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f7282bc7592c821e11cf6dafeb39e6c",
+    "revision": "db8ae00f614689ad2ea6fd2a27ae9aa2",
     "url": "/portfolio-kor/index.html"
   },
   {
-    "revision": "7d390340f39b44e2181a",
+    "revision": "f2d0016b12f4773e2796",
     "url": "/portfolio-kor/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "c2563e70c9e8cc5d844b",
+    "revision": "353eceb63b3b1e62d81f",
     "url": "/portfolio-kor/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "32f2b2cac3dc77814771",
+    "revision": "6e7ab54797aa865f88f1",
     "url": "/portfolio-kor/static/css/main.944a86fd.chunk.css"
   },
   {
-    "revision": "5a5bfbbed91979375a97",
-    "url": "/portfolio-kor/static/js/2.9dfb94b5.chunk.js"
+    "revision": "1e6d2f3a0dc74a88efb6",
+    "url": "/portfolio-kor/static/js/2.74b769fb.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/portfolio-kor/static/js/2.9dfb94b5.chunk.js.LICENSE.txt"
+    "url": "/portfolio-kor/static/js/2.74b769fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d390340f39b44e2181a",
-    "url": "/portfolio-kor/static/js/3.f4ca32b3.chunk.js"
+    "revision": "f2d0016b12f4773e2796",
+    "url": "/portfolio-kor/static/js/3.2870ab4e.chunk.js"
   },
   {
-    "revision": "c2563e70c9e8cc5d844b",
-    "url": "/portfolio-kor/static/js/4.33927b32.chunk.js"
+    "revision": "353eceb63b3b1e62d81f",
+    "url": "/portfolio-kor/static/js/4.34f083c0.chunk.js"
   },
   {
-    "revision": "32f2b2cac3dc77814771",
-    "url": "/portfolio-kor/static/js/main.896bbcad.chunk.js"
+    "revision": "6e7ab54797aa865f88f1",
+    "url": "/portfolio-kor/static/js/main.1e3ca68b.chunk.js"
   },
   {
-    "revision": "77d52dfa2694e939421a",
-    "url": "/portfolio-kor/static/js/runtime-main.14c4cd79.js"
+    "revision": "11f8e1bc0aca24149843",
+    "url": "/portfolio-kor/static/js/runtime-main.9ed3c609.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/portfolio-kor/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "0f774e171383414d364cf90a08ad7e03",
+    "url": "/portfolio-kor/static/media/asiasim.0f774e17.jpg"
   },
   {
     "revision": "a9ef8f6e220bf7743928e483a783e092",

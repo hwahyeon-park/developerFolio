@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio-kor/static/css/main.944a86fd.chunk.css",
-    "main.js": "/portfolio-kor/static/js/main.896bbcad.chunk.js",
-    "main.js.map": "/portfolio-kor/static/js/main.896bbcad.chunk.js.map",
-    "runtime-main.js": "/portfolio-kor/static/js/runtime-main.14c4cd79.js",
-    "runtime-main.js.map": "/portfolio-kor/static/js/runtime-main.14c4cd79.js.map",
-    "static/js/2.9dfb94b5.chunk.js": "/portfolio-kor/static/js/2.9dfb94b5.chunk.js",
-    "static/js/2.9dfb94b5.chunk.js.map": "/portfolio-kor/static/js/2.9dfb94b5.chunk.js.map",
+    "main.js": "/portfolio-kor/static/js/main.1e3ca68b.chunk.js",
+    "main.js.map": "/portfolio-kor/static/js/main.1e3ca68b.chunk.js.map",
+    "runtime-main.js": "/portfolio-kor/static/js/runtime-main.9ed3c609.js",
+    "runtime-main.js.map": "/portfolio-kor/static/js/runtime-main.9ed3c609.js.map",
+    "static/js/2.74b769fb.chunk.js": "/portfolio-kor/static/js/2.74b769fb.chunk.js",
+    "static/js/2.74b769fb.chunk.js.map": "/portfolio-kor/static/js/2.74b769fb.chunk.js.map",
     "static/css/3.df879eac.chunk.css": "/portfolio-kor/static/css/3.df879eac.chunk.css",
-    "static/js/3.f4ca32b3.chunk.js": "/portfolio-kor/static/js/3.f4ca32b3.chunk.js",
-    "static/js/3.f4ca32b3.chunk.js.map": "/portfolio-kor/static/js/3.f4ca32b3.chunk.js.map",
+    "static/js/3.2870ab4e.chunk.js": "/portfolio-kor/static/js/3.2870ab4e.chunk.js",
+    "static/js/3.2870ab4e.chunk.js.map": "/portfolio-kor/static/js/3.2870ab4e.chunk.js.map",
     "static/css/4.e91a4b36.chunk.css": "/portfolio-kor/static/css/4.e91a4b36.chunk.css",
-    "static/js/4.33927b32.chunk.js": "/portfolio-kor/static/js/4.33927b32.chunk.js",
-    "static/js/4.33927b32.chunk.js.map": "/portfolio-kor/static/js/4.33927b32.chunk.js.map",
+    "static/js/4.34f083c0.chunk.js": "/portfolio-kor/static/js/4.34f083c0.chunk.js",
+    "static/js/4.34f083c0.chunk.js.map": "/portfolio-kor/static/js/4.34f083c0.chunk.js.map",
     "index.html": "/portfolio-kor/index.html",
-    "precache-manifest.b8c41d5aa9152239ab7670dc219102a9.js": "/portfolio-kor/precache-manifest.b8c41d5aa9152239ab7670dc219102a9.js",
+    "precache-manifest.7d4e035882a6dd42a698ee4e4b9c2491.js": "/portfolio-kor/precache-manifest.7d4e035882a6dd42a698ee4e4b9c2491.js",
     "service-worker.js": "/portfolio-kor/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/portfolio-kor/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/portfolio-kor/static/css/4.e91a4b36.chunk.css.map",
     "static/css/main.944a86fd.chunk.css.map": "/portfolio-kor/static/css/main.944a86fd.chunk.css.map",
-    "static/js/2.9dfb94b5.chunk.js.LICENSE.txt": "/portfolio-kor/static/js/2.9dfb94b5.chunk.js.LICENSE.txt",
+    "static/js/2.74b769fb.chunk.js.LICENSE.txt": "/portfolio-kor/static/js/2.74b769fb.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio-kor/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/AndroidThings.jpg": "/portfolio-kor/static/media/AndroidThings.23c2f481.jpg",
+    "static/media/asiasim.jpg": "/portfolio-kor/static/media/asiasim.0f774e17.jpg",
     "static/media/brframeLogo-eng.jfif": "/portfolio-kor/static/media/brframeLogo-eng.a9ef8f6e.jfif",
     "static/media/contactMailDark.svg": "/portfolio-kor/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/portfolio-kor/static/media/developerActivity.59389695.svg",
@@ -34,9 +35,9 @@
     "static/media/TalkCard.scss": "/portfolio-kor/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.14c4cd79.js",
-    "static/js/2.9dfb94b5.chunk.js",
+    "static/js/runtime-main.9ed3c609.js",
+    "static/js/2.74b769fb.chunk.js",
     "static/css/main.944a86fd.chunk.css",
-    "static/js/main.896bbcad.chunk.js"
+    "static/js/main.1e3ca68b.chunk.js"
   ]
 }
