@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "409897b2eb5fb690b21771f9bb0ffa34",
+    "revision": "b7d67daca3970f13d2b5ce5ec26c0a54",
     "url": "/portfolio-kor/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-kor/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "1d7ee5cd2d3814f139a9",
+    "revision": "d29eb68a3272693aee82",
     "url": "/portfolio-kor/static/css/main.944a86fd.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-kor/static/js/4.34f083c0.chunk.js"
   },
   {
-    "revision": "1d7ee5cd2d3814f139a9",
-    "url": "/portfolio-kor/static/js/main.c4a27d01.chunk.js"
+    "revision": "d29eb68a3272693aee82",
+    "url": "/portfolio-kor/static/js/main.0990e444.chunk.js"
   },
   {
     "revision": "11f8e1bc0aca24149843",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-kor/static/media/AndroidThings.23c2f481.jpg"
   },
   {
-    "revision": "ee6539921d713482b8ccd4d0d23961bb",
-    "url": "/portfolio-kor/static/media/Montserrat-Regular.ee653992.ttf"
+    "revision": "60403564c68f58d275bdbcbe8bb0e9f7",
+    "url": "/portfolio-kor/static/media/AsiaSim.60403564.png"
   },
   {
-    "revision": "0f774e171383414d364cf90a08ad7e03",
-    "url": "/portfolio-kor/static/media/asiasim.0f774e17.jpg"
+    "revision": "ee6539921d713482b8ccd4d0d23961bb",
+    "url": "/portfolio-kor/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "a9ef8f6e220bf7743928e483a783e092",
