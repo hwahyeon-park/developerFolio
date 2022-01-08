@@ -263,7 +263,7 @@ const achievementSection = {
         emoji("🚩많은 데이터들을 실시간으로 처리하고 보호해야하는 SAE Level 5 수준의 무인 자동차 관제 환경에서 데이터를 구조적으로 정리하고 안전하게 보호할 수 있도록 SES 암호 알고리즘을 사용할 수 있도록 시나리오 계획 및 안드로이드 구현을 담당하였습니다. "),
       subtitle2:
           emoji("🚩이 주제로 Virtual Conference Asia Simulation Conference 2021(AsiaSim 2021)에 'A Study of Information Security Framework based on SES in Autonomous Vehicle Controlling Environment'라는 논문을 제출 및 학회 Oral Session에 발표를 하였습니다."),
-      image: require("./assets/images/asiasim.jpg"),
+      image: require("./assets/images/AsiaSim.png"),
       footerLink: [
         {
           name: "Conference Site",
