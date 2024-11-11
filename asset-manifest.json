@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-kor/static/css/main.31614eb5.css",
-    "main.js": "/portfolio-kor/static/js/main.ff67d779.js",
+    "main.js": "/portfolio-kor/static/js/main.07dabd34.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio-kor/static/css/64.bba8fa55.chunk.css",
     "static/js/64.ba9a9c55.chunk.js": "/portfolio-kor/static/js/64.ba9a9c55.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio-kor/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.ea5dfd83.chunk.js": "/portfolio-kor/static/js/769.ea5dfd83.chunk.js",
+    "static/media/server.png": "/portfolio-kor/static/media/server.d3801578313103dce87b.png",
     "static/media/AsiaSim.png": "/portfolio-kor/static/media/AsiaSim.89ab37c9f33df1a9e097.png",
+    "static/media/esp-iot.png": "/portfolio-kor/static/media/esp-iot.7049ce73418c06919c1f.png",
     "static/media/swuLogo.jpg": "/portfolio-kor/static/media/swuLogo.75ea47bacb6b577dd3f7.jpg",
     "static/media/Montserrat-Regular.ttf": "/portfolio-kor/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/iss.png": "/portfolio-kor/static/media/iss.47ea4424476b69f0f850.png",
@@ -33,7 +35,7 @@
     "index.html": "/portfolio-kor/index.html",
     "static/media/talksCardBack.svg": "/portfolio-kor/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.31614eb5.css.map": "/portfolio-kor/static/css/main.31614eb5.css.map",
-    "main.ff67d779.js.map": "/portfolio-kor/static/js/main.ff67d779.js.map",
+    "main.07dabd34.js.map": "/portfolio-kor/static/js/main.07dabd34.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio-kor/static/css/64.bba8fa55.chunk.css.map",
     "64.ba9a9c55.chunk.js.map": "/portfolio-kor/static/js/64.ba9a9c55.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio-kor/static/css/769.b3cbb36b.chunk.css.map",
@@ -41,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.31614eb5.css",
-    "static/js/main.ff67d779.js"
+    "static/js/main.07dabd34.js"
   ]
 }
