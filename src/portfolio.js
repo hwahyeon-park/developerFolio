@@ -276,7 +276,7 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/lenif-logo.png"),
+      image: require("./assets/images/esp-iot.png"),
       projectName: "[Lenif] AWS IoT 를 연동한 ESP32 펌웨어 개발",
       projectDesc: "ESP32에 FreeRTOS 기반 펌웨어를 개발하고 AWS IoT와 연동하여 BLE 통신 및 OTA 업데이트 기능을 구현",
       footerLink: [
@@ -288,7 +288,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/lenif-logo.png"),
+      image: require("./assets/images/server.png"),
       projectName: "[Lenif] AWS 기반의 MSA 서버 개발",
       projectDesc: "Microservice 아키텍처를 적용하여 서버 설계 및 관리, 데이터 수집 및 전송 체계 구축",
       footerLink: [
