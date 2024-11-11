@@ -35,6 +35,10 @@ export default function Greeting() {
                 }
               >
                 {greeting.subTitle}
+                <br />
+                {greeting.subTitle2}
+                <br />
+                {greeting.subTitle3}
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />

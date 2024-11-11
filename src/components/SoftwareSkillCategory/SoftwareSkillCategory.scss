@@ -1,0 +1,31 @@
+.software-skill-category {
+  margin-bottom: 10px;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left; /* 카테고리 타이틀을 왼쪽 정렬 */
+}
+
+.software-skills-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start; /* 이미지 배열을 왼쪽부터 정렬 */
+}
+
+.software-skill-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 이미지와 텍스트 개별 중앙 정렬 */
+  text-align: center;
+}
+
+.skill-image {
+  width: 40px; /* 이미지 크기 */
+  height: 40px;
+  margin-bottom: 5px;
+  object-fit: contain; /* 이미지 비율 유지 */
+}
